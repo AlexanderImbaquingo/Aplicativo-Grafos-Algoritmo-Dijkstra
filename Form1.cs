@@ -70,5 +70,10 @@ namespace Aplicativo.Dijkstra
                 dgvResultados.Rows.Add(resultado.Destino, caminoStr, pesoStr);
             }
         }
+
+        private void dgvAristas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
